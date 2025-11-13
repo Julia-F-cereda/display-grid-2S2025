@@ -7,12 +7,27 @@
 
 .gridContainer{
     display: grid;
-    grid-template-columns: repeat(3, 200px) 1fr 300px;
-    grid-template-rows: repeat(4, 200px);
-    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    /* gap: 10px 20px */
+    /* justify-items: stretch;
+    align-items: stretch; */
+
+    /* alinha vertical */
+    align-items: center;
+    /* alinha horizontal */
+    justify-content: center;
+    /* alinha vertical */
+    align-content: center;
+    
 }
 
 .gridItem{
     background-color: aqua;
+    height: 20vh;
+    width: 200px;
+
 
 }
