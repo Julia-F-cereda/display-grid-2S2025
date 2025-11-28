@@ -39,8 +39,10 @@
     width: 500px;
     display: flex;
     flex-direction: row;
-
 }
+ @media(min-width:400px){
+     
+ }
 
 .box1__item{
     width: 100%;
